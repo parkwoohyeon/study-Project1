@@ -31,17 +31,29 @@
 
 - `main`: 배포 가능한 안정 브랜치
 - `develop`: 기능 통합 브랜치
-- `codex/feature/*`: 기능별 작업 브랜치
+- `frontend/*`: 화면, UI 상태, 사용자 입력 처리
+- `backend/*`: API, 인증, 권한, 서버 로직
+- `database/*`: DB schema, 관계 설계, seed, migration
+- `infra/*`: 배포, CI, 환경변수, 운영 준비
+- `docs/*`: 기획, API 명세, ERD, 협업 문서
 - 모든 기능은 issue 생성 후 브랜치를 만들고 PR로 병합합니다.
 - PR은 최소 1명 이상 리뷰 후 병합합니다.
 
-## 기능 브랜치
+## 학습 브랜치
 
-- `codex/feature/project-setup`: Next.js 초기 세팅, 린트, 포맷, 폴더 구조
-- `codex/feature/auth`: 로그인, 회원가입, 세션, 권한 처리
-- `codex/feature/study-posts`: 스터디 모집글 목록, 상세, 작성, 수정, 삭제
-- `codex/feature/comments`: 댓글 작성, 수정, 삭제
-- `codex/feature/applications`: 스터디 신청, 승인, 거절, 모집 상태
-- `codex/feature/mypage`: 내 스터디, 신청 내역, 프로필
-- `codex/feature/search-filter`: 검색, 카테고리, 정렬, 페이지네이션
-- `codex/feature/deploy-ci`: 배포, 환경변수 문서화, 기본 CI
+- `docs/planning`: 요구사항, 화면 흐름, 역할 분담, issue 템플릿
+- `frontend/project-setup`: Next.js, TypeScript, lint, format, 폴더 구조
+- `frontend/layout-navigation`: 공통 레이아웃, 헤더, 네비게이션, 반응형 UI
+- `frontend/auth-pages`: 로그인, 회원가입, 인증 상태별 UI
+- `frontend/board-pages`: 모집글 목록, 상세, 작성, 수정 화면
+- `frontend/comment-ui`: 댓글 입력, 수정, 삭제 UI
+- `frontend/mypage-ui`: 마이페이지, 내 글, 신청 내역 화면
+- `backend/api-foundation`: API 구조, validation, error response 규칙
+- `backend/auth-api`: 회원가입, 로그인, 세션, 권한 검사
+- `backend/board-api`: 모집글 CRUD API
+- `backend/comment-api`: 댓글 CRUD API
+- `backend/application-api`: 스터디 신청, 승인, 거절, 마감 API
+- `database/schema-design`: ERD, users, studies, comments, applications 관계 설계
+- `database/migrations-seed`: migration, seed data, 개발용 샘플 데이터
+- `database/query-practice`: pagination, search, filter, relation query 연습
+- `infra/deploy-ci`: Vercel 배포, 환경변수, GitHub Actions
