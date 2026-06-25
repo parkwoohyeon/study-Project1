@@ -27,7 +27,9 @@
 | `frontend/auth-pages` | 인증 화면 구현 | login, signup, session UI, form handling |
 | `frontend/board-pages` | 게시판 화면 구현 | list, detail, create, edit, delete UI |
 | `frontend/comment-ui` | 댓글 UI 구현 | comment form, edit mode, delete confirm |
+| `frontend/application-ui` | 스터디 신청 화면 구현 | apply button, applicant list, approve/reject UI |
 | `frontend/mypage-ui` | 마이페이지 UI 구현 | profile, my posts, my applications |
+| `frontend/search-filter-ui` | 검색과 필터 화면 구현 | keyword search, category filter, sorting, pagination UI |
 | `backend/api-foundation` | API 기본 구조 구현 | route structure, validation, error response |
 | `backend/auth-api` | 인증 API 구현 | signup, login, logout, session, authorization |
 | `backend/board-api` | 게시글 API 구현 | studies CRUD, ownership check |

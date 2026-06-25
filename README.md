@@ -11,11 +11,11 @@
 ## 추천 기술 스택
 
 - Frontend: Next.js, React, TypeScript
-- Backend: Next.js Route Handlers 또는 Server Actions
+- Backend: Next.js Route Handlers
 - Database: PostgreSQL
-- ORM: Prisma 또는 Drizzle
-- Auth: Auth.js, Supabase Auth, Clerk 중 선택
-- Deploy: Vercel, Supabase 또는 Neon
+- ORM: Prisma
+- Auth: Auth.js
+- Deploy: Vercel
 
 ## MVP
 
@@ -47,7 +47,9 @@
 - `frontend/auth-pages`: 로그인, 회원가입, 인증 상태별 UI
 - `frontend/board-pages`: 모집글 목록, 상세, 작성, 수정 화면
 - `frontend/comment-ui`: 댓글 입력, 수정, 삭제 UI
+- `frontend/application-ui`: 스터디 신청, 승인, 거절 화면
 - `frontend/mypage-ui`: 마이페이지, 내 글, 신청 내역 화면
+- `frontend/search-filter-ui`: 검색, 카테고리, 정렬, 페이지네이션 화면
 - `backend/api-foundation`: API 구조, validation, error response 규칙
 - `backend/auth-api`: 회원가입, 로그인, 세션, 권한 검사
 - `backend/board-api`: 모집글 CRUD API
